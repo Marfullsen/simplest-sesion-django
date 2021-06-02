@@ -5,11 +5,11 @@
 [![Screenshot](./screenshots/screenshot_001.png)]()
 
 ## ¿Qué es esto?
-Es un sistema de gestión de credenciales, hecho de la manera más simple posible.
+Es un sistema de gestión de credenciales, hecho de la manera **más simple posible**.
 
 ## ¿Cómo lo echo a andar?
 - Primero instala Python3. [https://www.python.org/](https://www.python.org/)
-- Descarga/clona este repo. [github.com/Marfullsen/simplest-sesion-django](https://github.com/Marfullsen/simplest-sesion-django/)
+- Descarga/clona este repo. [Descargar Zip](https://github.com/Marfullsen/simplest-sesion-django/archive/refs/heads/master.zip) **ó también** `git clone [github.com/Marfullsen/simplest-sesion-django](https://github.com/Marfullsen/simplest-sesion-django/)`
 - Abre la carpeta y abre una terminal/consola.
 - Ejecuta estos comandos.
 **Windows** 
@@ -19,18 +19,21 @@ python manage.py runserver
 ```
 **ó también**
 ```
-py manage.py migrate`
+py manage.py migrate
 py manage.py runserver
 ```
 
-- En el caso de linux, Python podría ya estar instalado.
-- Verificar que sea Python3 pues ciertas distros traen Python2.
-**Linux**
-`python3 manage.py migrate`
-`python3 manage.py runserver`
+- En el caso de **Linux**, Python **podría** ya estar instalado.
+- Verificar que sea **Python3** pues ciertas distros traen Python2.
 
-- Finalmente ve al sitio indicado en la consola.
-    - Posiblemente [localhost:8000](localhost:8000/) ó [127.0.0.1:8000](127.0.0.1:8000/)
+**Linux**
+```
+python3 manage.py migrate
+python3 manage.py runserver
+```
+
+- Finalmente ve al sitio indicado **en la consola**.
+    - **Posiblemente** [localhost:8000](http://localhost:8000/) ó [127.0.0.1:8000](http://127.0.0.1:8000/)
 
 ## ¿Qué incluye?
 - Creación de usuario.
@@ -38,7 +41,7 @@ py manage.py runserver
 - Cierre de sesión.
 
 ## ¿Necesito alguna base de datos en especial?
-Por defecto se creará una base de datos SQLite.
+Por defecto se creará una base de datos **SQLite**.
 
 ## ¿Debo instalar SQLite?
 No, Python incluye soporte para SQLite y lo gestionará sólo.
