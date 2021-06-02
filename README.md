@@ -1,16 +1,16 @@
 # Inicio de sesión básico
 [![Python](https://img.shields.io/badge/Python-3.9.5-blue.svg)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-2.0.1-red.svg)](https://pypi.org/project/mgz/)
+[![Flask](https://img.shields.io/badge/Flask-2.0.1-green.svg)](https://flask.palletsprojects.com/)
 
-[![Screenshot](./screenshots/screenshot_001.png)]()
+[![Screenshot](./screenshots/screenshot_001.png)](https://github.com/Marfullsen/simplest-sesion-django/tree/master/screenshots)
 
 ## ¿Qué es esto?
 Es un sistema de gestión de credenciales, hecho de la manera **más simple posible**.
 
 ## ¿Cómo lo echo a andar?
 - Primero instala Python3. [https://www.python.org/](https://www.python.org/)
-- Descarga/clona este repo. [Descargar Zip](https://github.com/Marfullsen/simplest-sesion-django/archive/refs/heads/master.zip) **ó también** `git clone [github.com/Marfullsen/simplest-sesion-django](https://github.com/Marfullsen/simplest-sesion-django/)`
-- Abre la carpeta y abre una terminal/consola.
+- [Descarga](https://github.com/Marfullsen/simplest-sesion-django/archive/refs/heads/master.zip)/clona este repo. `git clone https://github.com/Marfullsen/simplest-sesion-django.git`
+- Abre la carpeta y abre una terminal/consola/shell/prompt.
 - Ejecuta estos comandos.
 **Windows** 
 ```
@@ -23,7 +23,7 @@ py manage.py migrate
 py manage.py runserver
 ```
 
-- En el caso de **Linux**, Python **podría** ya estar instalado.
+- En el caso de **Linux**, Python **podría ya estar instalado**.
 - Verificar que sea **Python3** pues ciertas distros traen Python2.
 
 **Linux**
