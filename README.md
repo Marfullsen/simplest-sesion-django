@@ -1,6 +1,6 @@
 # Inicio de sesión básico
 [![Python](https://img.shields.io/badge/Python-3.9.5-blue.svg)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-2.0.1-green.svg)](https://flask.palletsprojects.com/)
+[![Django](https://img.shields.io/badge/Django-3.2.5-darkgreen.svg)](https://www.djangoproject.com/)
 
 [![Screenshot](./screenshots/screenshot_001.png)](https://github.com/Marfullsen/simplest-sesion-django/tree/master/screenshots)
 
